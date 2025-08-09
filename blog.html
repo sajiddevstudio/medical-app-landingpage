@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title tag -->
+    <title>Prista - App landing page</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!-- stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/glightbox.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/overlay-scrollbars.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- preloader - start -->
+    <div class="preloader">
+        <div class='sk-folding-cube'>
+            <div class='sk-cube sk-cube-1 bg-red'></div>
+            <div class='sk-cube sk-cube-2 bg-green'></div>
+            <div class='sk-cube sk-cube-4 bg-yellow'></div>
+            <div class='sk-cube sk-cube-3 bg-purple'></div>
+          </div>
+    </div>
+    <!-- preloader - end -->
+
+    <!-- navigation - start -->
+    <div class="navigation">
+        <div class="navigation-wrapper">
+            <div class="container-fluid">
+                <div class="navigation-inner">
+                    <div class="navigation-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="orions-logo">
+                        </a>
+                    </div>
+                    <div class="navigation-menu">
+                        <div class="mobile-header">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo.png" alt="image">
+                                </a>
+                            </div>
+                            <ul>
+                                <li class="close-button">
+                                    <i class="fas fa-times"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="parent">
+                            <li class="has-child">
+                                <a href="index.html" class="link-underline link-underline-1">
+                                    <span>Home</span>
+                                </a>
+                                <div class="child">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html" class="link-underline">
+                                                <span>Home 1</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="index-2.html" class="link-underline">
+                                                <span>Home 2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="index-3.html" class="link-underline">
+                                                <span>Home 3</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#about" class="scroll-button link-underline link-underline-1">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#features" class="scroll-button link-underline link-underline-1">
+                                    <span>Features</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#blog" class="scroll-button link-underline link-underline-1">
+                                    <span>Blog</span>
+                                </a>
+                                <div class="child">
+                                    <ul>
+                                        <li>
+                                            <a href="blog.html" class="link-underline">
+                                                <span>Blog List</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-single.html" class="link-underline">
+                                                <span>Blog Detail</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#pricing" class="scroll-button link-underline link-underline-1">
+                                    <span>Pricing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="scroll-button link-underline link-underline-1">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="button button-red button-navigation">
+                                    <span>Get Started</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="social">
+                            <h5>Follow</h5>
+                            <ul>
+                                <li>
+                                    <a href="#" class="c-dark">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="c-dark">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="c-dark">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="c-dark">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navigation-bar">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navigation - end -->
+
+    <!-- page header - start -->
+    <div class="page-header">
+        <div class="page-header-wrapper">
+            <div class="container page-header-content">
+                <div class="row align-items-lg-end">
+                    <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <h1 class="c-dark">Our Blog</h1>
+                    </div>
+                    <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="link-underline link-underline-1">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="link-underline link-underline-1">
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="background-layout">
+                <div class="box-1 bg-grey-5"></div>
+                <div class="box-2 bg-yellow">
+                    <div class="box-3 bg-purple"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page header - end -->
+
+    <!-- blog section - start -->
+    <div class="blog-section blog-section-1">
+        <div class="blog-section-wrapper">
+            <div class="container">
+                <!-- blog - start -->
+                <div class="row blog-row gx-5">
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-1.jpg" alt="blog">
+                                    <div class="date bg-purple">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Take Command of Your Personal and Professional Development.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-2.jpg" alt="blog">
+                                    <div class="date bg-blue">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Continuing Medical Education Activities Across the Globe.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-3.jpg" alt="blog">
+                                    <div class="date bg-red">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Advanced Search Tags to Filter Based on Specialty and Disease.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-4.jpg" alt="blog">
+                                    <div class="date bg-pink">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Take Command of Your Personal and Professional Development.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-6.jpg" alt="blog">
+                                    <div class="date bg-yellow">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Continuing Medical Education Activities Across the Globe.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-7.jpg" alt="blog">
+                                    <div class="date bg-green">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Advanced Search Tags to Filter Based on Specialty and Disease.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure class="thumbnail-big">
+                                    <img src="assets/images/blog/blog-single-thumbnail-7.jpg" alt="blog">
+                                    <div class="date bg-purple">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Take Command of Your Personal and Professional Development.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure class="thumbnail-big">
+                                    <img src="assets/images/blog/blog-single-thumbnail-8.jpg" alt="blog">
+                                    <div class="date bg-blue">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Introducting Advanced Search Tags to Filter Based on Specialty and Disease.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-9.jpg" alt="blog">
+                                    <div class="date bg-purple">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Take Command of Your Personal and Professional Development.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-10.jpg" alt="blog">
+                                    <div class="date bg-blue">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Continuing Medical Education Activities Across the Globe.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-11.jpg" alt="blog">
+                                    <div class="date bg-red">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Advanced Search Tags to Filter Based on Specialty and Disease.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-12.jpg" alt="blog">
+                                    <div class="date bg-pink">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Take Command of Your Personal and Professional Development.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-13.jpg" alt="blog">
+                                    <div class="date bg-yellow">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Continuing Medical Education Activities Across the Globe.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                    <!-- blog single - start -->
+                    <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-single">
+                            <a href="blog-single.html">
+                                <figure>
+                                    <img src="assets/images/blog/blog-single-thumbnail-14.jpg" alt="blog">
+                                    <div class="date bg-green">
+                                        <p class="c-white">
+                                            27 <span>Dec</span>
+                                        </p>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="blog-single.html">
+                                <h3 class="c-dark">Advanced Search Tags to Filter Based on Specialty and Disease.</h3>
+                            </a>
+                            <h5 class="c-grey fw-500">11 comments <span>·</span> 3 min read</h5>
+                        </div>
+                    </div>
+                    <!-- blog single - end -->
+                </div>
+                <!-- blog - end -->
+                <!-- pagination - start -->
+                <div class="row">
+                    <div class="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="blog-pagination">
+                            <ul>
+                                <li class="active">
+                                    1
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">3</a>
+                                </li>
+                                <li>
+                                    <a href="#">4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- pagination - end -->
+            </div>
+        </div>
+    </div>
+    <!-- blog section - end -->
+
+    <!-- cta section - start -->
+    <div class="cta-section position-relative">
+        <div class="cta-section-wrapper">
+            <div class="container">
+                <div class="row d-lg-flex align-items-lg-center">
+                    <!-- content - start -->
+                    <div class="col-lg-6 offset-lg-0 order-lg-1 col-md-8 offset-md-2 col-10 offset-1 order-2">
+                        <div class="cta-section-content">
+                            <h2 class="c-white">Take control of your health and the ones you care for.</h2>
+                            <div class="button-group">
+                                <a href="#" class="button button-red button-red-hover-white">
+                                    <span>Get Started</span>
+                                </a>
+                                <a href="#" class="button button-purple button-purple-hover-white">
+                                    <span>Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- content - end -->
+                    <!-- image - start -->
+                    <div class="col-lg-6 offset-lg-0 order-lg-2 col-md-8 offset-md-2 col-10 offset-1 order-1">
+                        <div class="cta-section-image">
+                            <img src="assets/images/cta-phone.png" alt="phone">
+                            <div class="box-1 bg-green-rgba-8">
+                                <div class="box-2 bg-purple">
+                                    <div class="box-2-1 bg-dark-1"></div>
+                                </div>
+                                <div class="box-3 bg-dark-1"></div>
+                            </div>
+                            <div class="box-4 bg-red-rgba-8">
+                                <div class="box-5 bg-dark-1">
+                                    <div class="box-6 bg-blue">
+                                        <div class="box-7 bg-dark-1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- image - end -->
+                </div>
+            </div>
+        </div>
+        <div class="background-layout">
+            <div class="box-1 bg-darkk">
+                <div class="box-1-1 bg-dark-1">
+                    <div class="box-1-1-1 bg-dark-1"></div>
+                </div>
+                <div class="box-2 bg-green">
+                    <div class="box-2-1 bg-red"></div>
+                </div>
+                <div class="box-3 bg-yellow">
+                    <div class="box-3-1 bg-blue"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cta section - end -->
+
+    <!-- footer - start -->
+    <footer class="footer position-relative">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="footer-row">
+                            <div class="footer-detail">
+                                <a href="#">
+                                    <img src="assets/images/logo.png" alt="footer-logo">
+                                </a>
+                                <p>Prista is an app that helps you and
+                                    your family organize on the daily
+                                    basis by maintaing proper diet and
+                                    help from expert practitioners.</p>
+                                <ul class="social">
+                                    <li>
+                                        <a class="button button-purple" href="#">
+                                            <span>
+                                                <i class="fab fa-facebook-f"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="button button-blue" href="#">
+                                            <span>
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="button button-green" href="#">
+                                            <span>
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="button button-red" href="#">
+                                            <span>
+                                                <i class="fab fa-youtube"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-list">
+                                <h6>Solutions</h6>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Doctors</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Practice Managers</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Billers</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Billing Companies</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>New Practices</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Your Speciality</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-list">
+                                <h6>Menu</h6>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>About</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Our Team</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Features</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Blog</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>How It Works</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Contact</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-list">
+                                <h6>Support</h6>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Help Center</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Contact Support</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Product Updates</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Professional Services</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Customer Agreement</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-underline">
+                                            <span>Privacy Policy</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                        <div class="footer-copyright c-grey">
+                            <h6>&copy; GFXPARTNER</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="box-1 bg-yellow">
+                <div class="box-2">
+                    <a href="#" class="button button-blue button-top">
+                        <span>
+                            <i class="fas fa-arrow-up"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer - end -->
+    
+    <!-- scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/overlay-scrollbars.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
